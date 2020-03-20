@@ -1,0 +1,48 @@
+/*
+domyślnie jest ustawiona wielkość czcionki na 16 pikseli!
+*/
+
+body {
+	font-family:sans-serif;
+	/*background-color: rgb(234, 234, 225);*/
+	background-image: linear-gradient(to right, rgb(234, 234, 225), rgb(193, 193, 164));
+	width: 70%;
+	margin: 0 auto;}
+
+#header{
+	text-transform:capitalize;
+	text-align: center;}
+
+h2 {
+	color: darkred;
+	text-transform:capitalize;
+	text-align:center;}
+
+#content{
+	overflow: auto;}
+
+#nav, #feature, #footer{
+	margin: 1%;}
+
+#nav, #footer, #feature, .art{
+	background-color: rgb(184, 184, 148);
+	padding: 0.5%}
+
+#nav{
+	padding: 0.01em 0.01em 0.01em 0.01em;}
+
+li{
+	display: inline;
+	padding: 2em;}
+
+.dydaktyka, .organizacja, .badania{
+	width: 31.3%;
+	float: left;
+	margin: 0.5%;}
+
+#feature, .art{
+	min-height: 10em;
+	margin: 1em, 0em, 1em, 0em;}
+
+#nav, #footer, h3.category{
+	text-align: center;}
